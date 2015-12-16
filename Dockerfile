@@ -61,6 +61,5 @@ RUN cd /root && git clone https://github.com/BVLC/caffe.git && cd caffe && \
 # Make
   make -j"$(nproc)" all && make pycaffe  && make test
 
-
 # Set ~/caffe as working directory
 WORKDIR /root/caffe
